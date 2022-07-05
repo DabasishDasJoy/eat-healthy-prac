@@ -1,0 +1,84 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900px;
+}
+#title-para{
+    color: #575757;
+    font-size: 20px;
+    font-weight:100px;
+    width: 500px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width: 50%;
+}
+.male-image{
+    margin-left: -200px;
+}
+.title{
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.orange-color{
+    color: orange;
+}
+.link-button{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 25px 50px;
+    color: white;
+    font-size: 18px;
+    font-weight:100px;
+    box-shadow: 0px 0px 30px orange;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.about-me{
+    background-image: url("../images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+#female-image{
+    width: 350px;
+}
+#female-image img{
+    height: 100%;
+}
+.about-me-text{
+    padding-top: 70px;
+}
+.center-align-text{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.recipe-item{
+    width: 30%;
+    padding: 50px;
+}
+
+.recipies{
+    display: flex;
+    justify-content:center;    
+}
